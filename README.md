@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 Quote Generator — Nexium Internship Task
 
-## Getting Started
+A simple web-based quote generator built using **Next.js**, **Supabase**, and **Tailwind CSS**. This app displays a random quote from a Supabase PostgreSQL database and allows the user to generate a new one by clicking a button.
 
-First, run the development server:
+---
+
+## 🌐 Live Demo
+
+👉 [View the App on Vercel](https://vercel.com/aliza-kunvars-projects/nexium-alizakunvar-assign1/HDa4nNxz34zVaNyN9PfRzVop1czB)  
+
+---
+
+## 🛠️ Tech Stack
+
+- ✅ Next.js 14 (App Router)
+- ✅ Tailwind CSS for styling
+- ✅ Supabase (PostgreSQL) for data
+- ✅ pnpm (performance-optimized package manager)
+- ✅ Deployed on Vercel
+
+---
+
+## 📦 Features
+
+- Randomly fetches quotes from a Supabase table
+- "Next Quote" button to refresh the quote
+- Fully responsive layout
+- Clean UI using Tailwind & DaisyUI (optional)
+- Deployed with environment secrets
+
+---
+
+## ⚙️ Local Development
+
+### 1. Install dependencies
+
+> Requires Node.js ≥ 20 and `pnpm`
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+pnpm install
+run ->pnpm dev
